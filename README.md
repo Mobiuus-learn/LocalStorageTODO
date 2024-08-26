@@ -12,7 +12,7 @@ Um aplicativo de gerenciamento de tarefas construído com React e Chakra UI. Est
 
 - React: Biblioteca para construção da interface de usuário
 - Chakra UI: Biblioteca de componentes UI para React
-  TypeScript: Linguagem que adiciona tipagem estática ao JavaScript
+- TypeScript: Linguagem que adiciona tipagem estática ao JavaScript
 
 ## Estrutura do Projeto
 
