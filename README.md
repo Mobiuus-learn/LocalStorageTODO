@@ -29,7 +29,7 @@ Para instalar e executar o projeto localmente, siga os passos abaixo:
 
 `bash`
 
-`git clone https://github.com/usuario/repo.git`
+`git clone https://github.com/Mobiuus-learn/LocalStorageTODO.git`
 
 `cd repo`
 
