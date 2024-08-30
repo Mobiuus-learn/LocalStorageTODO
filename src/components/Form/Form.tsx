@@ -9,9 +9,12 @@ import {
   Button,
   Stack,
 } from "@chakra-ui/react";
-import { useState } from "react";
+import { SetStateAction, useState } from "react";
 
-export function Form({ addTask }) {
+interface PropsTypes {
+  addTask: (value: string) => void;
+}
+export function Form({ addTask }: PropsTypes) {
   const [inputValue, setInputValue] = useState("");
   const [isError, setIsError] = useState(false);
 
@@ -24,7 +27,7 @@ export function Form({ addTask }) {
     setInputValue("");
     setIsError(false);
   };
-  const handleChange = (e) => {
+  const handleChange = (e: { target: { value: SetStateAction<string> } }) => {
     setInputValue(e.target.value);
     setIsError(e.target.value === "");
   };
